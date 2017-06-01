@@ -1,17 +1,31 @@
-Spring-test-webapp Documentation
+# Spring-test-webapp 
 
-1) Setting up the development machine
+This is a test project i made to teach my self the Java Spring Framework following the 
+"The Java Spring Tutorial: Learn Java's Popular Web Framework" course on udemy.com . 
 
-Install jdk ee
-Install eclipse ee (tested on Eclipse Neon)
-Install Maven Integration for Eclipse (if not already installed with your version of eclipse)
-Install Spring IDE (if not installed STS version of eclipse)
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
+```
+The version of Eclipse that it was used for the development is Eclipse Neon on MacOS Sierra 10.12.5
+The version of the server used is Tomcat 7
+```
+### Installing
+```
+Install jdk ee 
+Install eclipse ee 
+Install Maven Integration for Eclipse 
+Install Spring IDE 
  
-Install Tomcat 7 (the application is tested with version 7)
+Install Tomcat 7 
 Install MySQL Community Edition (there is a database.sql file in the project)
 Install MySQL Workbench
+```
 
-2) Import to Eclipse 
+### Import to Eclipse 
 
 The project is ready to be imported to Eclipse environment without any problem.
 In order to Run the application on local server (Tomcat 7) it is important to configure
@@ -20,5 +34,5 @@ in the project. In this file there are the configurations for the server to conn
 with the DB. Keep in mind that it is IMPORTANT to change the user and the password fields to 
 match your local DB (and the url field, if another name is used!)
 
-3) Remote server implemantation
+### Remote server implemantation
 Coming soon...
