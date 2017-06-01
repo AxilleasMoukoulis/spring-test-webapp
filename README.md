@@ -71,6 +71,7 @@ Coming soon...
 
 * [Eclipse NEO](http://www.eclipse.org/neon/) - Java IDE
 * [Spring](https://projects.spring.io/spring-framework/) - Web Framework
+* [Hibernate](http://hibernate.org) - Data Framework
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [MySQL](https://dev.mysql.com/downloads/) - RDBMS
 * [Apache Tomcat 7](https://tomcat.apache.org/download-70.cgi) - Web Server
