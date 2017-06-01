@@ -41,6 +41,9 @@ match your local DB (and the url field, if another name is used!)
 		url="jdbc:mysql://localhost:3306/springtutorial" />
 ```
 
+### Remote server implementation
+Coming soon...
+
 ## Built With
 
 * [Eclipse NEO](http://www.eclipse.org/neon/) - Java IDE
@@ -48,11 +51,6 @@ match your local DB (and the url field, if another name is used!)
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [MySQL](https://dev.mysql.com/downloads/) - RDBMS
 * [Apache Tomcat 7](https://tomcat.apache.org/download-70.cgi) - Web Server
-
-
-
-### Remote server implementation
-Coming soon...
 
 ## Authors
 
