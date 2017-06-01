@@ -34,5 +34,12 @@ in the project. In this file there are the configurations for the server to conn
 with the DB. Keep in mind that it is IMPORTANT to change the user and the password fields to 
 match your local DB (and the url field, if another name is used!)
 
+```
+<Resource name="jdbc/spring" auth="Container" type="javax.sql.DataSource"
+		maxActive="100" maxIdle="30" maxWait="10000" username="root"
+		password="123456" driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://localhost:3306/springtutorial" />
+```
+
 ### Remote server implementation
 Coming soon...
