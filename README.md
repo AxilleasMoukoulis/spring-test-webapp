@@ -1,7 +1,7 @@
 # Spring-test-webapp 
 
-This is a test project i made to teach my self the Java Spring Framework following the 
-"The Java Spring Tutorial: Learn Java's Popular Web Framework" course on udemy.com . 
+This is a test project i made to teach my self the Java Spring Framework. 
+The idea for this project is to create a site where anyone has the ability to create an account and post a job advert. Then any visitor can view the job adverts and send a message to the applicants. The applicants have the ability to respond to those messages and an email is sent to the visitor who sent the message.
 
 ## Getting Started
 
@@ -41,7 +41,30 @@ match your local DB (and the url field, if another name is used!)
 		url="jdbc:mysql://localhost:3306/springtutorial" />
 ```
 
-### Remote server implementation
+### Database
+In the project there is a database.sql file which contains the SQL commands to create a DB with the proper tables for the application. Also with the tables, an Administrator user is created with username: Administrator and password: 123456789 (you can delete this user if you like and create an new one but you have to remember that it's IMPORTANT to give this user authority: ROLE_ADMIM manually!)
+
+### Email responses
+In order to set up the application properly so it can sent emails, you have to create a developer email account (Gmail) and configure the following file (/WebContent/WEB-INF/offers-servlet)
+
+```
+<bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
+		<property name="host" value="smtp.gmail.com"/>
+		<property name="port" value="587"/>
+		<property name="username" value="usernmae@gmail.com"/>
+		<property name="password" value="password"/>
+		<property name="javaMailProperties">
+			<props>
+				<prop key="mail.smtp.auth">true</prop>
+				<prop key="mail.smtp.starttls.enable">true</prop>
+				<prop key="mail.smtp.ssl.trust">smtp.gmail.com</prop>
+			</props>
+		</property>
+		
+	</bean>
+```	
+
+### Deployment
 Coming soon...
 
 ## Built With
