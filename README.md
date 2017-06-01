@@ -34,5 +34,5 @@ in the project. In this file there are the configurations for the server to conn
 with the DB. Keep in mind that it is IMPORTANT to change the user and the password fields to 
 match your local DB (and the url field, if another name is used!)
 
-### Remote server implemantation
+### Remote server implementation
 Coming soon...
