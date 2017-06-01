@@ -41,5 +41,24 @@ match your local DB (and the url field, if another name is used!)
 		url="jdbc:mysql://localhost:3306/springtutorial" />
 ```
 
+## Built With
+
+* [Eclipse NEO](http://www.eclipse.org/neon/) - Java IDE
+* [Spring](https://projects.spring.io/spring-framework/) - Web Framework
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [MySQL](https://dev.mysql.com/downloads/) - RDBMS
+* [Apache Tomcat 7](https://tomcat.apache.org/download-70.cgi) - Web Server
+
+
+
 ### Remote server implementation
 Coming soon...
+
+## Authors
+
+* **Axilleas Moukoulis** - *Initial work* - [AxilleasMoukoulis](https://github.com/AxilleasMoukoulis)
+
+## Acknowledgments
+
+* The project is based on the Udemy course [The Java Spring Tutorial: Learn Java's Popular Web Framework](https://www.udemy.com/javaspring/learn/v4/overview)
+* Instructor: John Purcell
