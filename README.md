@@ -65,7 +65,29 @@ In order to set up the application properly so it can sent emails, you have to c
 ```	
 
 ### Deployment
-Coming soon...
+After importing the project to your local machine and test it, in order to deploy the app to a real server you have to follow those steps to your remote server:
+
+Install Tomcat 7 (to run the app)
+Install MySQL (to store your data)
+Install vsftp (to transfer files to your server)
+
+After the installations are done
+
+1) Configure Tomcat manager panel and create an admin user
+2) Configure Tomcat's context.xml  
+
+```
+<Resource name="jdbc/spring" auth="Container" type="javax.sql.DataSource"
+		maxActive="100" maxIdle="30" maxWait="10000" username="root"
+		password="123456" driverClassName="com.mysql.jdbc.Driver"
+		url="jdbc:mysql://localhost:3306/springtutorial" />
+```
+
+
+3) Create the Database for the app by following the SQL commands of the database.sql file
+4) Through your local machine, export a WAR file of the project
+5) Deploy the WAR file using tomcat's manager web interface
+
 
 ## Built With
 
